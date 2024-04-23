@@ -16,7 +16,7 @@ on:
 
 jobs:
   maven-publish:
-    uses: mosip/kattu/.github/workflows/maven-publish-android.yml@master
+    uses: syedsalman3753/kattu/.github/workflows/maven-publish-android.yml@master
     with:
       SERVICE_LOCATION: '.'
       ANDROID_SERVICE_LOCATION: 'android'
